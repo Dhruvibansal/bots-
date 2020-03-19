@@ -5,7 +5,6 @@ void setup()
   Serial.begin(9600);
   pinMode (13, OUTPUT); // Led pin OUTPUT
 }
-
 void loop()
 {
   Serial.print("IRSensorip  ");
