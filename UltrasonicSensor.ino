@@ -1,9 +1,8 @@
 int trigPin = 10;
 int echoPin = 11;
 int led = 13;
-
-
-void setup() {
+void setup()
+{
   Serial.begin(9600); 
    pinMode(led, OUTPUT);
    pinMode(trigPin, OUTPUT);
@@ -12,7 +11,8 @@ void setup() {
 
 }
 
-void loop() {
+void loop()
+{
   long duration, distance;
   digitalWrite(trigPin,HIGH);
   delayMicroseconds(1000);
